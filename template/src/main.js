@@ -8,11 +8,10 @@ import App from './App'
 import router from './router'
 {{/router}}
 
+import 'normalize.css'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
-
-import 'normalize.css'
 
 Vue.config.productionTip = false
 
